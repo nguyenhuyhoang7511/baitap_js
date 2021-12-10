@@ -1,0 +1,29 @@
+
+.container{
+    background-color: cadetblue;
+    width: 100%; 
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+
+}
+
+.container__left{
+    /* dùng để đặt khoảng cách cho item */
+    flex-basis: 500px;
+}
+.container__right{
+    flex-basis: 500px;
+}
+h1{
+    /* code css */
+    color: purple;
+}
+/* 
+CSS FLEXBOX
+1. FLEXBOX CHO PHẦN TỬ CHA
+
+2. PLEXBOX CHO PHÂN TỬ CON
+ */
